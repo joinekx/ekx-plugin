@@ -1,0 +1,13 @@
+{
+  "name": "ekx",
+  "displayName": "EKX",
+  "version": "0.2.0",
+  "description": "Create single-line diagrams and import protection-device catalogue data from manufacturer PDFs or native ETAP exports in EKX.",
+  "author": {
+    "name": "EKX",
+    "url": "https://joinekx.com"
+  },
+  "homepage": "https://joinekx.com/docs/api/connect-an-ai-agent",
+  "repository": "https://github.com/joinekx/ekx",
+  "keywords": ["electrical", "single-line diagram", "protection", "catalogue", "tcc"]
+}

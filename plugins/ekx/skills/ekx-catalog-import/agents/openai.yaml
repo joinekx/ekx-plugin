@@ -1,0 +1,11 @@
+interface:
+  display_name: "Catalogue Import"
+  short_description: "Import EKX devices from PDFs or ETAP data"
+  default_prompt: "Use $ekx-catalog-import to add this device and its curves to my EKX catalogue."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ekx"
+      description: "EKX catalogue import tools"
+      transport: "streamable_http"
+      url: "https://joinekx.com/mcp"

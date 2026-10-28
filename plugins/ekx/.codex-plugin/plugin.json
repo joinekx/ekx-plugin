@@ -1,0 +1,25 @@
+{
+  "name": "ekx",
+  "version": "0.2.0",
+  "description": "Create and work with electrical engineering projects in EKX.",
+  "author": {
+    "name": "EKX"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "EKX",
+    "shortDescription": "Build and analyze electrical projects in EKX.",
+    "longDescription": "EKX connects Codex to electrical engineering workflows. Create editable single-line diagrams and import protection-device catalogue data from manufacturer PDFs or native ETAP exports.",
+    "developerName": "EKX",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Create this single-line diagram in EKX from the attached drawing.",
+      "Add this breaker and its PDF or native ETAP curves to my EKX catalogue."
+    ]
+  }
+}

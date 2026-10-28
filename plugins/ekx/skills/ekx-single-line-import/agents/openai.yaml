@@ -1,0 +1,11 @@
+interface:
+  display_name: "Single-Line Import"
+  short_description: "Turn an SLD into an editable EKX project"
+  default_prompt: "Use $ekx-single-line-import to create this SLD in EKX from the attached drawing."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ekx"
+      description: "EKX single-line import tools"
+      transport: "streamable_http"
+      url: "https://joinekx.com/mcp"

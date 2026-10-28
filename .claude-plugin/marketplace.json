@@ -1,0 +1,15 @@
+{
+  "name": "ekx",
+  "description": "EKX plugins for AI coding agents.",
+  "owner": {
+    "name": "EKX",
+    "url": "https://joinekx.com"
+  },
+  "plugins": [
+    {
+      "name": "ekx",
+      "source": "./plugins/ekx",
+      "description": "Create single-line diagrams and import protection-device catalogue data in EKX."
+    }
+  ]
+}
